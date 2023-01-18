@@ -11,3 +11,17 @@
 .dark li{
     color: white;
 }
+
+.appbar-container {
+    display: flex;
+    align-items: space-between
+}
+
+.timer {
+    display: flex;
+    margin-left: 'auto';
+}
+
+.title {
+    display: flex;
+}
