@@ -1,13 +1,3 @@
 .app h1{
     color: red;
 }
-
-.dark {
-    background: black;
-}
-.dark h1 {
-    color: white;
-}
-.dark li{
-    color: white;
-}
