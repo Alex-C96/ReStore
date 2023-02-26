@@ -40,7 +40,6 @@ function App() {
         <Route path='/catalog/:id' component={ProductDetails} /> 
         <Route path='/about' component={AboutPage} /> 
         <Route path='/contact' component={ContactPage} /> 
-
       </Container>
     </ThemeProvider>
   );
