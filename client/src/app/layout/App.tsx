@@ -8,11 +8,11 @@ import ContactPage from "../../features/contact/ContactPage";
 import HomePage from "../../features/home/HomePage";
 import Header from "./Header";
 
-// declare module '@mui/material' {
-//     interface ThemeOptions {    
-//         palette?: object
-//     }
-// }
+declare module '@mui/material' {
+     interface ThemeOptions {    
+         palette?: object
+     }
+ }
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
